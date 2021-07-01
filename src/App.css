@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.card{
+  box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+}
+img{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  object-fit: contain;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+caption{
+  background-color: #009688;
+  color: #fff;
+  font-size: 2rem;
+}
+table thead{
+  background-color: #009688;
+  color: #fff;
+}
+table td, table th {
+  border: 1px solid #eee;
+  padding: 5px;
+}
+table tr:nth-child(even){
+  background-color: antiquewhite;
+}
+table  tr:hover{
+  background-color: bisque;
+}
+table th{
+  background-color: #009688;
+}
+.addForm{
+  margin-top: 10px;
+}
+form {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-top: 10px;
+}
+form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  margin: 0px 20px 5px 20px;
+  border-radius: 30px;
+  height: 40px;
+  outline: none;
+  border: transparent;
+  box-shadow: -3px 4px 3px -4px rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+}
+form button {
+  background-color: #009688;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: inset;
+  color: #fff;
+  cursor: pointer;
 }
