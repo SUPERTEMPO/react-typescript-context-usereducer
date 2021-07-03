@@ -1,21 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import AddEmployeeForm from './components/AddEmployeeForm';
-import TableComponent, { IDataProps } from './components/TableComponent';
-import data from './data/people';
-function App() {
-  const [tableData, setTableData] = useState<IDataProps['data']>(data)
-  const handleDelete = (id: number):void =>{
-    setTableData(prev => prev.filter(d  => d.id !== id))
-  }
+import AddTodoItem from './components/AddTodoItem';
+import TodoComponent from './components/TodoComponent';
+function App() {  
   return (
     <div className="App">
       <div className="wrapper">
         <div className="card">
-          <TableComponent data={tableData} deleteData={handleDelete} />
+          <TodoComponent />
         </div>
         <div className="card">
-          <AddEmployeeForm setTableData={setTableData} />
+          <AddTodoItem />
         </div>
       </div>
     </div>
