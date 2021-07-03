@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Getting Started with this sample todo app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This sample todo app is created using using typescript & react js(Context API & Reducer).
 
-## Available Scripts
+To run this project locally, navigate to your project directory  & simply follow the steps below
 
-In the project directory, you can run:
+1. `git clone https://github.com/SUPERTEMPO/react-typescript-context-usereducer.git`
+2. `npm install`
+3. `npm start`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. Assumming it's running on port 3000
 
-### `yarn start`
+## How it works
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In this project i have implemented react context api and reducer using typescript. You could be stuck searching online on to how to implement ***react context api*** with ***useReducer*** in typescript properly as most of the tutorials out here are not explicitly done using a clear approach. But in this project, i have properly configured ***context api with useReducer*** ensuring it's type safety and followed the best principles possible.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Also, within this project you will learn how to structure your app to make it maintainable and easier to manage as the business logic is separated from the UI logic making your code reusable. 
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**That's it. You're done**
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
